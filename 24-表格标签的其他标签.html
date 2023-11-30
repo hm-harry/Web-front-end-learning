@@ -5,16 +5,103 @@
     <title>24-表格标签的其他标签</title>
 </head>
 <body>
-<!---->
-<h2>今日小说排行榜</h2>
-<table bgcolor="black">
-    <tr>
-        <td>排名</td>
-        <td>关键词</td>
-        <td>趋势</td>
-        <td>今日搜索</td>
-        <td>最近七日</td>
-        <td>相关链接</td>
+<!--
+1.表格标题
+在表格标签中提供了一个标签专门用来设置表格的标题，这个标签叫caption，只要将标题写在caption标签中，标题就自动会相对表格居中
+
+2.caption标签的注意点
+2.1caption标签一定要写在table标签中，否则无效
+2.2caption一定要竟跟在table标签后面
+
+3.标题单元格标签
+在表格标签中提供一个标签专门用来储存每一列的标题，这个标签叫做th标签，只要将当前列的标题存储在这个标签中就会自动居中+加粗
+
+到此为止我们就发现，其实表格中国有两种单元格，一种是td，一种是th，td专门用来存储数据的，th是专门用来存储当前列的标题的
+-->
+
+<table bgcolor="black" cellspacing="1px" width="800px" align="center">
+    <caption>
+        <h2>今日小说排行榜</h2>
+    </caption>
+    <tr bgcolor="#a9a9a9">
+        <th>排名</th>
+        <th>关键词</th>
+        <th>趋势</th>
+        <th>今日搜索</th>
+        <th>最近七日</th>
+        <th>相关链接</th>
+    </tr>
+    <tr bgcolor="white" align="center">
+        <td>1</td>
+        <td align="left">暴走大事件</td>
+        <td><img src="html.jpg" alt=""></td>
+        <td>623557</td>
+        <td>4088311</td>
+        <td>
+            <a href="https://tieba.baidu.com/">贴吧</a>
+            <a href="https://image.baidu.com/">图片</a>
+            <a href="https://news.baidu.com/">新闻</a>
+        </td>
+    </tr>
+    <tr bgcolor="white" align="center">
+        <td>2</td>
+        <td align="left">暴走大事件</td>
+        <td><img src="html.jpg" alt=""></td>
+        <td>623557</td>
+        <td>4088311</td>
+        <td>
+            <a href="https://tieba.baidu.com/">贴吧</a>
+            <a href="https://image.baidu.com/">图片</a>
+            <a href="https://news.baidu.com/">新闻</a>
+        </td>
+    </tr>
+    <tr bgcolor="white" align="center">
+        <td>3</td>
+        <td align="left">暴走大事件</td>
+        <td><img src="html.jpg" alt=""></td>
+        <td>623557</td>
+        <td>4088311</td>
+        <td>
+            <a href="https://tieba.baidu.com/">贴吧</a>
+            <a href="https://image.baidu.com/">图片</a>
+            <a href="https://news.baidu.com/">新闻</a>
+        </td>
+    </tr>
+    <tr bgcolor="white" align="center">
+        <td>4</td>
+        <td align="left">暴走大事件</td>
+        <td><img src="html.jpg" alt=""></td>
+        <td>623557</td>
+        <td>4088311</td>
+        <td>
+            <a href="https://tieba.baidu.com/">贴吧</a>
+            <a href="https://image.baidu.com/">图片</a>
+            <a href="https://news.baidu.com/">新闻</a>
+        </td>
+    </tr>
+    <tr bgcolor="white" align="center">
+        <td>5</td>
+        <td align="left">暴走大事件</td>
+        <td><img src="html.jpg" alt=""></td>
+        <td>623557</td>
+        <td>4088311</td>
+        <td>
+            <a href="https://tieba.baidu.com/">贴吧</a>
+            <a href="https://image.baidu.com/">图片</a>
+            <a href="https://news.baidu.com/">新闻</a>
+        </td>
+    </tr>
+    <tr bgcolor="white" align="center">
+        <td>6</td>
+        <td align="left">暴走大事件</td>
+        <td><img src="html.jpg" alt=""></td>
+        <td>623557</td>
+        <td>4088311</td>
+        <td>
+            <a href="https://tieba.baidu.com/">贴吧</a>
+            <a href="https://image.baidu.com/">图片</a>
+            <a href="https://news.baidu.com/">新闻</a>
+        </td>
     </tr>
 </table>
 
