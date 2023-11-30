@@ -5,6 +5,44 @@
     <title>25-表格的结构</title>
 </head>
 <body>
+<!--
+由于表格中存储的数据比较复杂，为了方便管理和以及提升语义，我们可以对表格中存储的数据进行分类
+表格中存储的数据可以分成四类：
+1.表格的标题
+2.表格的标头信息
+3.表格的主体信息
+4.表格的页尾信息
 
+2.表格的完整结构
+caption：表格的标题
+thead：表格的标头信息
+tbody：表格的主体信息
+tfoot：表格的页尾信息
+
+注意点：
+1.如果我们没有编写tbody，系统会帮助我们添加tbody
+2.如果指定了thead和tfoot，那么在修改整个表格的高度时，thead和tfoot有自己默认的高度，不会随着表格的高度而变化
+-->
+
+<table border="1px" width="500px" height="300px">
+    <caption>
+        表格的标题
+    </caption>
+    <thead>
+        <tr>
+            <th>每一列的标题</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>数据</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>数据</td>
+        </tr>
+    </tfoot>
+</table>
 </body>
 </html>
