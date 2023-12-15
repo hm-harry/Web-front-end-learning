@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>35-video标签</title>
+</head>
+<body>
+<!--
+1.什么是video标签
+作用：播放视频
+
+格式：
+<video src="">
+</video>
+
+video标签的属性
+src：用于告诉video标签需要播放的视频地址
+autoplay：用于告诉video标签是否自动播放视频
+controls：用于告诉video标签是否显示进度条
+poster：用于告诉video标签视频没有播放之前显示的占位图片
+loop：一般用于做广告视频，告诉video标签视频播放完是否需要循环播放
+preload：预加载视频，但是需要注意preload和autoplay相冲，如果设置了autoplay属性，那么preload属性就会失效
+muted：静音
+width/height：和img标签一模一样
+-->
+<video src="images/sb1.webm" autoplay="autoplay" controls="controls" poster="images/NJ.jpg" muted="muted" width="800px"></video>
+<!--<video src="images/sb1.webm" autoplay="autoplay" loop="loop"></video>-->
+
+</body>
+</html>
