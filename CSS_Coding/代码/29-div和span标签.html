@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>29-div和span标签</title>
+    <style>
+        .header{
+            width: 980px;
+            height: 100px;
+            background: red;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .content{
+            width: 980px;
+            height: 500px;
+            background: green;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .footer{
+            width: 980px;
+            height: 100px;
+            background: blue;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .logo{
+            width: 200px;
+            height: 50px;
+            background: pink;
+            float: left;
+            margin: 20px;
+        }
+        .nav{
+            width: 600px;
+            height: 50px;
+            background: yellow;
+            float: right;
+            margin: 20px;
+        }
+        .aside{
+            width: 250px;
+            height: 460px;
+            background: purple;
+            float: left;
+            margin: 20px;
+        }
+        .article{
+            width: 650px;
+            height: 460px;
+            background: deepskyblue;
+            float: right;
+            margin: 20px;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!--
+1.什么是div？
+作用：一般用于配合CSS完成网页的基本布局
+
+2.什么是span？
+作用：一般配合CSS修改网页中的局部信息
+
+3.div和span有什么区别？
+3.1div会单独的占领一行，而span不会单独占领一行
+3.2div是一个容器级别的标签，而span是文本级别的标签
+
+4.容器级标签和文本级标签的区别？
+容器级的标签中可以嵌套其他所有的标签
+文本级的标签只能嵌套文字/超链接/图片
+
+容器级标签：
+div h ul ol dl li ...
+文本级标签：
+span p buis strong em ins del ...
+
+注意点：
+哪些标签是文本级的，哪些标签是容器级的我们不用刻意记忆，在企业开发中一般情况下要嵌套都是嵌套在div中，或者按照组标签来嵌套
+-->
+
+<!--
+<div class="header">
+    <div class="logo"></div>
+    <div class="nav"></div>
+</div>
+<div class="content">
+    <div class="aside"></div>
+    <div class="article"></div>
+</div>
+<div class="footer"></div>
+-->
+
+<!--
+<p><span>努力</span>学习</p>
+-->
+
+<!--
+<div>我是div</div>
+<div>我是div</div>
+
+<span>我是span</span>
+<span>我是span</span>
+-->
+
+<!--
+<div>
+    <ul>
+        <li>
+            <img src="../资料/color.jpg" alt="">
+        </li>
+    </ul>
+</div>
+-->
+
+<!--
+<p>我是段落
+    <h1>我是标题</h1>
+</p>
+-->
+
+</body>
+</html>
