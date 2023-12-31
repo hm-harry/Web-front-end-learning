@@ -1,8 +1,8 @@
 # Web-front-end-learning
 ## Study Web-front-end-learning By Myself, Learning From My Favourite Teacher Li Nanjiang.
 ### This project will including: 
-· HTML-
-· CSS-foundation
+· HTML_Coding(Completed)
+· CSS_Coding(To be completed)
 · JavaScript-foundation
 · Ajax+jQuery-foundation
 · Booststrap-foundation
